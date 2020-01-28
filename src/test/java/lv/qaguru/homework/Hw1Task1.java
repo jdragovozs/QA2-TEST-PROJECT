@@ -21,10 +21,10 @@ public class Hw1Task1 {
         double distance = 200;
         double fuel = 30;
 
-        // Результат
+        // Результат:
         double consumption = distance / fuel;
 
-        System.out.println("расход: " + consumption);
+        System.out.println("Расход: " + consumption);
     }
 
 
@@ -37,22 +37,22 @@ public class Hw1Task1 {
         double pi = 3.14;
         double distanceKm = 1000;
 
-        // Результат 1 (окружность в см)
+        // Результат
         double circleCm = 2 * pi * radiusCm;
 
-        System.out.println("1) Длина окружности колеса в см: " + circleCm);
+        System.out.println("* Длина окружности колеса в см: " + circleCm);
 
 
-        // Окружность в км
+        // Результат:
         double circleKm = circleCm / 1000;
 
         // System.out.println("Окружность в км: " + circleKm);
 
 
-        // Результат 3 (обороты)
+        // Результат:
         double wheelingNumber = distanceKm / circleKm;
 
-        System.out.println("2) Кол-во оборотов колеса на 1000 км: " + wheelingNumber);
+        System.out.println("* Кол-во оборотов колеса на 1000 км: " + wheelingNumber);
 
     }
 
